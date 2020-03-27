@@ -1,0 +1,64 @@
+/* regole generali */
+* {
+  left: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/italo_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* debug */
+
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* debug */
+
+}
+
+/* ----------------------FORM UP */
+.contenitore_form_up {
+  height: 500px;
+  width: 400px;
+
+  /* debug */
+  background-color: rgba(75,75,75,.89);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* ----------------------FORM DOWN */
+.contenitore_form_down {
+  height: 500px;
+  width: 400px;
+  padding-top: 50px;
+
+  /* debug */
+  background-color: white;
+}
+
+.contenitore_form_down:hover {
+  display: block;
+  transition: 1s;
+  background: red;
+}
