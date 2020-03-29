@@ -21,44 +21,127 @@ header {
   flex-direction: column;
   justify-content: center;
   /* debug */
-
+  /* background-color: rgba(5,82,213,.55); */
 }
 main {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align:center;
   /* debug */
-
+  /* background-color: rgba(213,5,74,.55); */
 }
 
 /* ----------------------FORM UP */
-.contenitore_form_up {
+#contenitore_form_up {
   height: 500px;
   width: 400px;
-
+  transition: width 2s;
+  margin-left: 30px;
   /* debug */
-  background-color: rgba(75,75,75,.89);
+  background-color: rgba(0,0,0,.79);
+}
+#contenitore_form_up:hover{
+  width: 800px;
+
+}
+#titolo_biglietto {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+#nome {
+  width: 140px;
+  border-radius: 15px;
+  padding: 8px;
 }
 
+#km {
+  width: 140px;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+#eta {
+  width: 100px;
+}
+
+button {
+  margin-top: 20px;
+  width: 60px;
+}
+
+
 form {
+  height:200px;
+  /* transition: height 3s; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-/* ----------------------FORM DOWN */
-.contenitore_form_down {
-  height: 500px;
-  width: 400px;
-  padding-top: 50px;
 
   /* debug */
-  background-color: white;
+
+}
+/* form:hover {
+  height: 400px;
+  background-color: rgba(34,213,5,.55);
+
+} */
+
+.text_form {
+  font-size: 20px;
+  line-height: 30px;
+  color:white;
 }
 
-.contenitore_form_down:hover {
-  display: block;
-  transition: 1s;
-  background: red;
+.text_form:nth-child(1){
+  padding-top: 100px;
+}
+
+/* ----------------------FORM DOWN */
+#contenitore_form_down_scompari {
+  height: 500px;
+  width: 400px;
+  padding-top: 30px;
+  display: none;
+  background-color: rgba(255,255,255,.84);
+}
+
+#qrcode {
+  height: 100px;
+  width: 100px;
+}
+
+.text_box {
+  color: black;
+  padding-bottom: 9px;
+}
+
+#box1 {
+  font-size: 20px;
+  background-color: aliceblue;
+  margin: 0px 80px;
+}
+#box2 {
+  font-size: 20px;
+  background-color: aliceblue;
+  margin: 0px 80px;
+}
+#box3 {
+  font-size: 20px;
+  background-color: aliceblue;
+  margin: 0px 80px;
+}
+#box4 {
+  font-size: 20px;
+  background-color: aliceblue;
+  margin: 0px 80px;
+}
+#box5 {
+  font-size: 20px;
+  background-color: aliceblue;
+  margin: 0px 80px;
 }

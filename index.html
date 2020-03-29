@@ -7,54 +7,43 @@
   </head>
   <body>
     <header>
-      <div class="contenitore_form_up">
+      <div id="contenitore_form_up">
+        <h1 id="titolo_biglietto">Compila il Form</h1>
         <form>
-          <label>Nome Cognome</label><br>
-          <input id="nome"type="text" name="fname" value=""><br>
-          <label>Km da percorrere</label><br>
-          <input id="km"type="text" name="lname" value=""><br>
-          <label>Fascia Et&agrave</label><br>
-          <input id="eta"type="text" name="lname" value=""><br>
-
-          <button id="bottone_genera"type="submit" name="button">GENERA</button>
-          <button type="reset" name="button">RESET</button>
-
+          <!-- valori iniziali input -->
+          <h1 class="text_form">Nome Cognome: </h1>
+          <input id="nome"type="text" name="" value=""><br>
+          <h1 class="text_form">Km da percorrere: </h1>
+          <input id="km"type="number" name="" value=""><br>
+          <!-- selezione opzione età -->
+          <h1 class="text_form">Et&agrave passeggero: </h1>
+          <select id="eta" name="">
+            <option value="opzione1">Under18</option>
+            <option value="opzione2">Maggiorenni</option>
+            <option value="opzione3">Over65</option>
+          </select>
+          <!-- input bottoni  -->
+          <button id="bottone_genera" type="button" name="button">GENERA</button>
+          <button id="annulla"type="reset" name="button">RESET</button>
         </form>
       </div>
-
     </header>
 
     <main>
-      <div class="contenitore_form_down">
-
+      <div id="contenitore_form_down_scompari">
+        <h1 class="text_box">Nome passeggero: </h1>
+        <h2 id="box1"></h2>
+        <h1 class="text_box">Numero carrozza: </h1>
+        <h2 id="box2"></h2>
+        <h1 class="text_box">Costo Biglietto: </h1>
+        <h2 id="box3"></h2>
+        <h1 class="text_box">Tipologia di sconto: </h1>
+        <h2 id="box4"></h2>
+        <h1 class="text_box">Punti accumulati</h1>
+        <h2 id="box5"></h2>
+        <img id="qrcode"src="img/qr.png" alt="">
       </div>
-
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
