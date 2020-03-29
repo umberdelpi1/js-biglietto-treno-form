@@ -49,10 +49,10 @@ bottonClick.addEventListener("click",
     if (valoreEta == "opzione1"){
       bigliettoFinale = bigliettoScontoMinorenni;
       opzione = "Under18: 20% Sale";
-    }else if (valoreEta == "opzione3"){
+    } else if (valoreEta == "opzione3"){
       bigliettoFinale = bigliettoScontoAnziani;
       opzione = "Over65: 40% Sale";
-    }else{
+    } else {
       bigliettoFinale = bigliettoIntero;
       opzione = "Normal";
     }
@@ -67,7 +67,6 @@ bottonClick.addEventListener("click",
 )
 
 annullaBottone.addEventListener("click",
-
   function(){
     valoreKM = "";
     valoreEta = "";

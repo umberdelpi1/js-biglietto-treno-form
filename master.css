@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-image: url(img/italo_2.jpg);
   background-repeat: no-repeat;
@@ -15,6 +16,7 @@ body {
   justify-content: center;
 }
 
+
 header {
   width: 100%;
   display: flex;
@@ -23,6 +25,8 @@ header {
   /* debug */
   /* background-color: rgba(5,82,213,.55); */
 }
+
+
 main {
   width: 100%;
   display: flex;
@@ -34,7 +38,8 @@ main {
   /* background-color: rgba(213,5,74,.55); */
 }
 
-/* ----------------------FORM UP */
+
+/* -------------------------------------FORM SX */
 #contenitore_form_up {
   height: 500px;
   width: 400px;
@@ -43,20 +48,26 @@ main {
   /* debug */
   background-color: rgba(0,0,0,.79);
 }
+
+
 #contenitore_form_up:hover{
   width: 800px;
-
 }
+
+
 #titolo_biglietto {
   text-align: center;
   color: white;
   padding-top: 20px;
 }
+
+
 #nome {
   width: 140px;
   border-radius: 15px;
   padding: 8px;
 }
+
 
 #km {
   width: 140px;
@@ -64,9 +75,11 @@ main {
   padding: 8px;
 }
 
+
 #eta {
   width: 100px;
 }
+
 
 button {
   margin-top: 20px;
@@ -81,15 +94,8 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* debug */
-
 }
-/* form:hover {
-  height: 400px;
-  background-color: rgba(34,213,5,.55);
 
-} */
 
 .text_form {
   font-size: 20px;
@@ -97,11 +103,13 @@ form {
   color:white;
 }
 
+
 .text_form:nth-child(1){
   padding-top: 100px;
 }
 
-/* ----------------------FORM DOWN */
+
+/* -------------------------------------FORM DX */
 #contenitore_form_down_scompari {
   height: 500px;
   width: 400px;
@@ -110,38 +118,55 @@ form {
   background-color: rgba(255,255,255,.84);
 }
 
+
 #qrcode {
   height: 100px;
   width: 100px;
 }
 
+
 .text_box {
   color: black;
   padding-bottom: 9px;
+  border-radius: 20px;
 }
+
 
 #box1 {
   font-size: 20px;
   background-color: aliceblue;
   margin: 0px 80px;
+  border-radius: 20px;
 }
+
+
 #box2 {
   font-size: 20px;
   background-color: aliceblue;
   margin: 0px 80px;
+  border-radius: 20px;
 }
+
+
 #box3 {
   font-size: 20px;
   background-color: aliceblue;
   margin: 0px 80px;
+  border-radius: 20px;
 }
+
+
 #box4 {
   font-size: 20px;
   background-color: aliceblue;
   margin: 0px 80px;
+  border-radius: 20px;
 }
+
+
 #box5 {
   font-size: 20px;
   background-color: aliceblue;
   margin: 0px 80px;
+  border-radius: 20px;
 }
